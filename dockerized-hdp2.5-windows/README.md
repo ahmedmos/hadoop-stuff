@@ -44,4 +44,4 @@ The script makes sure the container is running along with all the services under
 
 ## Stopping & Restarting 
 - You can stop your container using ```docker stop sandbox```
-- Run the same script again and it will restart everything for you.
+- Run the same script again and it will restart everything for you, use ```https://raw.githubusercontent.com/ahmedmos/hadoop-stuff/master/dockerized-hdp2.5-windows/load-HDP25-Docker-Win.bat -OutFile runHDPDocker.ps``` and run the downloaded file.
