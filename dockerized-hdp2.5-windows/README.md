@@ -38,8 +38,8 @@ If the posh-docker didn't work, you might be missing a module, just Google (or B
 
 ## Make sure things are running
 The script makes sure the container is running along with all the services underneath.
-- Open http://localhost:8888
-- Open http://localhost:8080 and login using ```maria_dev/maria_dev```
+- Open (http://localhost:8888)
+- Open (http://localhost:8080) and login using ```maria_dev/maria_dev```
 - run ```docker exec -ti sandbox bash``` to get inside the container and check the running services.
 
 ## Stopping & Restarting 
