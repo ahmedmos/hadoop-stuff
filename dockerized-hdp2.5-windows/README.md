@@ -42,4 +42,6 @@ The script makes sure the container is running along with all the services under
 - Open http://localhost:8080 and login using ```maria_dev/maria_dev```
 - run ```docker exec -ti sandbox bash``` to get inside the container and check the running services.
 
-Have fun!
+## Stopping & Restarting 
+- You can stop your container using ```docker stop sandbox```
+- Run the same script again and it will restart everything for you.
