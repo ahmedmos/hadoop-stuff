@@ -1,5 +1,5 @@
 # Quick Spark Lab to process Wikipedia datasets:
-## This lab is part of what was taught in Spark Summit, I reapplied it in Apache Zeppelin as a self exercise and I'm sharing my experience with the community.
+This lab is part of what was taught in Spark Summit, I reapplied it in Apache Zeppelin as a self exercise and I'm sharing my experience with the community.
 
 ## 1- The Dataset:
 Part of the data is uploaded here in the repo, the rest (and full set) can be found here:
@@ -52,6 +52,8 @@ Add Maven support (or SBT if you want!), then all you need to do is to add the S
         </dependency>
     </dependencies>
 ```
+
+Once done, you can simply run and enjoy your spark jobs without worrying about any hadoop dependencies.
 
 ## 3- Running the Labs
 ### Using Zeppelin
